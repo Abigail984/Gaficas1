@@ -32,16 +32,16 @@ DataFrameAKPD = pd.DataFrame(frameDeAKPD)
 
 print(DataFrameAKPD)
 #Gráfica de lineas por estado sin detalles de puertas, que muestra el movimiento de Personal Vehicles
-#xAKPD=DataFrameAKPD['Date']
-#yAKPD=DataFrameAKPD['Value']
-#plt.plot(xAKPD,yAKPD)
-#plt.show()
+xAKPD=DataFrameAKPD['Date']
+yAKPD=DataFrameAKPD['Value']
+plt.plot(xAKPD,yAKPD)
+plt.show()
 #Hacer Gráfica de puntos que muestre el comportamiento de "Pedestrians". Que sea una gráfica
 #por cada estado y con detalle de puertas en la horizontal
-#xAKPV=frameDePerAKPV['Port Name']
-#yAKPV=frameDePerAKPV['Value']
-#plt.scatter(xAKPV,yAKPV)
-#plt.show()
+xAKPV=frameDePerAKPV['Port Name']
+yAKPV=frameDePerAKPV['Value']
+plt.scatter(xAKPV,yAKPV)
+plt.show()
 
 akPV= DataFrameAKPV[DataFrameAKPV['Measure']=='Personal Vehicles']
 akPVP= DataFrameAKPVP[DataFrameAKPVP['Measure']=='Personal Vehicle Passengers']
