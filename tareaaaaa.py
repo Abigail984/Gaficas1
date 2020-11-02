@@ -17,7 +17,6 @@ es_PerVehPas = fronteras["Measure"] == "Personal Vehicle Passengers"
 es_PerVeh = fronteras["Measure"] == "Personal Vehicles"
 
 es_PD = fronteras["Measure"] == "Pedestrians"
-
 es_AK = fronteras["State"] == "AK"
 
 frameDePerAKPV = fronteras[fecha & es_Canada & es_PerVeh & es_AK]
