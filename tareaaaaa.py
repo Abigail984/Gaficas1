@@ -1,6 +1,6 @@
-import numpy as np
+#import numpy as np
 import pandas as pd
-import pickle
+#import pickle
 import matplotlib.pyplot as plt
 fronteras = pd.read_csv('fronteras.csv')
 fecha = fronteras["Date"].isin(["1/1/2019 00:00", "2/1/2019 00:00", "3/1/2019 00:00", "4/1/2019 00:00","5/1/2019 00:00","6/1/2019 00:00","7/1/2019 00:00","8/1/2019 00:00","9/1/2019 00:00","10/1/2019 00:00","11/1/2019 00:00","12/1/2019 00:00"])
