@@ -7,7 +7,6 @@ fecha = fronteras["Date"].isin(["1/1/2019 00:00", "2/1/2019 00:00", "3/1/2019 00
 
 es_Canada = fronteras["Border"] == "US-Canada Border"
 frontCanada = fronteras[es_Canada & fecha]
-
 DataFrameCanada = pd.DataFrame(frontCanada)
 cols_to_subset = ["Port Name", "State", "Date", "Measure", "Value"]
 filtroFinal = DataFrameCanada[cols_to_subset]
