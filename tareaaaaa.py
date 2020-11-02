@@ -12,7 +12,6 @@ DataFrameCanada = pd.DataFrame(frontCanada)
 cols_to_subset = ["Port Name", "State", "Date", "Measure", "Value"]
 filtroFinal = DataFrameCanada[cols_to_subset]
 DataFrameFiltro = pd.DataFrame(filtroFinal)
-
 print(filtroFinal)
 es_PerVehPas = fronteras["Measure"] == "Personal Vehicle Passengers"
 es_PerVeh = fronteras["Measure"] == "Personal Vehicles"
