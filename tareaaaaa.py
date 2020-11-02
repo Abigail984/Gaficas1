@@ -29,7 +29,6 @@ DataFrameAKPVP = pd.DataFrame(frameDePerAKPVP)
 
 print(frameDePerAKPVP)
 
-
 frameDeAKPD = fronteras[fecha & es_Canada & es_PD  & es_AK]
 DataFrameAKPD = pd.DataFrame(frameDeAKPD)
 
@@ -47,7 +46,6 @@ print(DataFrameAKPD)
 #yAKPV=frameDePerAKPV['Value']
 #plt.scatter(xAKPV,yAKPV)
 #plt.show()
-
 
 akPV= DataFrameAKPV[DataFrameAKPV['Measure']=='Personal Vehicles']
 akPVP= DataFrameAKPVP[DataFrameAKPVP['Measure']=='Personal Vehicle Passengers']
