@@ -33,7 +33,6 @@ frameDeAKPD = fronteras[fecha & es_Canada & es_PD  & es_AK]
 DataFrameAKPD = pd.DataFrame(frameDeAKPD)
 
 print(DataFrameAKPD)
-
 #Gráfica de lineas por estado sin detalles de puertas, que muestra el movimiento de Personal Vehicles
 #xAKPD=DataFrameAKPD['Date']
 #yAKPD=DataFrameAKPD['Value']
