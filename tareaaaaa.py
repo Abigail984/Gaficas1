@@ -74,7 +74,6 @@ frameDeBP = fronteras[fecha & es_Canada & es_BP ]
 DataFrameBP = pd.DataFrame(frameDeBP)
 print(DataFrameBP)
 
-
 xBP=DataFrameBP['Value']
 yBP=DataFrameBP
 plt.hist(xBP)
